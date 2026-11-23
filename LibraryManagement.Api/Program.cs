@@ -33,7 +33,6 @@ app.MapGet("/weatherforecast", () =>
 })
 .WithName("GetWeatherForecast");
 
-throw new Exception("An error occured");
 
 app.Run();
 
